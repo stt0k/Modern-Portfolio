@@ -1,5 +1,12 @@
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import { createRoot } from "react-dom/client";
+import App from "./App.tsx";
+import NotFound from "./pages/NotFound";
+import "./index.css";
 
-createRoot(document.getElementById("root")!).render(<App />);
+const rootElement = document.getElementById("root");
+
+if (window.location.pathname === "/404.html") {
+  createRoot(rootElement!).render(<NotFound />);
+} else {
+  createRoot(rootElement!).render(<App />);
+}
