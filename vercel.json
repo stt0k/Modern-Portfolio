@@ -6,6 +6,6 @@
   },
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/(.*)", "status": 404, "dest": "/pages/NotFound.tsx" }
+    { "src": "/(.*)", "status": 404, "dest": "src/pages/NotFound.tsx" }
   ]
 }
