@@ -8,21 +8,10 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-
   plugins: [react(), mode === "development" && null].filter(Boolean),
-
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-    },
-  },
-
-  build: {
-    rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, "index.html"),
-        404: path.resolve(__dirname, "public/404.html"),
-      },
     },
   },
 }));
