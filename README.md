@@ -53,8 +53,8 @@ Este proyecto usa tecnologías modernas y requiere Node.js 18 o superior.
 1. Clona el repositorio:
 
    ```bash
-   git clone git@github.com:stt0k/modern-portfolio.git
-   cd modern-portfolio
+   git clone git@github.com:stt0k/Modern-Portfolio.git
+   cd Modern-Portfolio
    ```
 
 2. Instala las dependencias:
@@ -147,5 +147,5 @@ Este proyecto está bajo la licencia MIT. Puedes ver más detalles en el archivo
 ---
 
 <div align="center">
-✨ Desarrollado por [stt0k](https://github.com/stt0k) ✨
+✨ Desarrollado por stt0k (https://github.com/stt0k) ✨
 </div>
