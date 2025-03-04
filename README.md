@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://res.cloudinary.com/dkgt07zcg/image/upload/f_auto,q_auto/mern-crud" alt="Modern Portfolio Banner" />
+<img src="https://res.cloudinary.com/dkgt07zcg/image/upload/f_auto,q_auto/v1/github%20images/jjzp2tpm3chgsvmrd9fa" alt="Modern Portfolio Banner" />
 </div>
 
 <div align="center">
