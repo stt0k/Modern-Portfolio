@@ -70,7 +70,7 @@ Este proyecto usa tecnologías modernas y requiere Node.js 18 o superior.
    ```
 
 4. Accede a la aplicación en tu navegador:
-   - **Frontend**: [http://localhost:5173](http://localhost:5173)
+   - **Frontend**: [http://localhost:8080](http://localhost:8080)
 
 ---
 
