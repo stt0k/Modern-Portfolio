@@ -28,7 +28,7 @@ const ProjectsSection: React.FC = () => {
       name: "STOFLI-UI",
       number: "02",
       image:
-        "https://res.cloudinary.com/dkgt07zcg/image/upload/f_auto,q_auto/v1/Portfolio/dd2bxhpxrhfpfwnaevlb",
+        "https://res.cloudinary.com/dkgt07zcg/image/upload/f_auto,q_auto/v1/Portfolio/uv1gkrebrss9einrbfjd",
       link: "https://github.com/stt0k",
     },
     {
@@ -36,7 +36,7 @@ const ProjectsSection: React.FC = () => {
       name: "FASTORDER",
       number: "03",
       image:
-        "https://res.cloudinary.com/dkgt07zcg/image/upload/f_auto,q_auto/v1/Portfolio/cuvkthopvsbqr6xfwrlc",
+        "https://res.cloudinary.com/dkgt07zcg/image/upload/f_auto,q_auto/v1/Portfolio/fnkqlxtyybz7bkmz6abc",
       link: "https://github.com/stt0k",
     },
     {
@@ -44,7 +44,7 @@ const ProjectsSection: React.FC = () => {
       name: "SPOTIFY CLON",
       number: "04",
       image:
-        "https://res.cloudinary.com/dkgt07zcg/image/upload/f_auto,q_auto/v1/Portfolio/bsdcoxmyitv3duo5qssg",
+        "https://res.cloudinary.com/dkgt07zcg/image/upload/f_auto,q_auto/v1/Portfolio/gpfsfld7paatpygkbwj3",
       link: "https://github.com/stt0k",
     },
     {
@@ -105,7 +105,7 @@ const ProjectsSection: React.FC = () => {
       </div>
 
       {/* Image container */}
-      <div className="fixed right-0 top-0 w-[40vw] h-screen bg-black/5 pointer-events-none">
+      <div className="fixed right-0 top-0 w-[50vw] h-screen pointer-events-none">
         <div className="relative w-full h-full">
           {projects.map((project) => (
             <div
@@ -120,15 +120,11 @@ const ProjectsSection: React.FC = () => {
               }}
             >
               {/* Container con animaciones */}
-              <div className="relative w-full h-full overflow-hidden rounded-2xl">
+              <div className="relative w-full h-full bg-black overflow-hidden rounded-2xl">
                 <div
                   className={`absolute inset-0 transition-transform duration-700 ease-out ${
                     hoveredButton === project.id ? "scale-100" : "scale-110"
                   }`}
-                  style={{
-                    background:
-                      "linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0))",
-                  }}
                 />
                 <img
                   src={project.image || "/placeholder.svg"}
@@ -137,18 +133,6 @@ const ProjectsSection: React.FC = () => {
                     hoveredButton === project.id ? "scale-100" : "scale-110"
                   }`}
                 />
-                {/* Project info */}
-                <div
-                  className={`absolute bottom-0 left-0 right-0 p-8 transition-all duration-500 ${
-                    hoveredButton === project.id
-                      ? "opacity-100 translate-y-0"
-                      : "opacity-0 translate-y-4"
-                  }`}
-                >
-                  <div className="bg-white/10 rounded-xl p-4 text-black text-center shadow-2xl">
-                    <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
-                  </div>
-                </div>
               </div>
             </div>
           ))}

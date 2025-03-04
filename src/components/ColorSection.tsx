@@ -312,7 +312,7 @@ function ColorSection() {
           number="(03)"
           description="I ensure each project is properly deployed, optimizing servers and enhancing performance. Additionally, I provide maintenance and continuous improvements to guarantee long-term success."
           cards={recruitmentCards}
-          bgColor="bg-[#f48c78]"
+          bgColor="bg-[#ffc157]"
           rounded="rounded-xl"
         />
       </div>

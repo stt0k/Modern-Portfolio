@@ -53,6 +53,13 @@
     @apply font-sans;
   }
 
+  @layer base {
+    ::selection {
+      background-color: #fff061;
+      color: black;
+    }
+  }
+
   a {
     position: relative;
     text-decoration: none;
