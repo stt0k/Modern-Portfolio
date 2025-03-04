@@ -95,18 +95,18 @@ modern-portfolio/
 ├── src/
 │   ├── components/
 │   │   ├── ui/
-│   │   │   ├── AnimatedText.tsx
-│   │   │   ├── ColorSection.tsx
-│   │   │   ├── CustomCursor.tsx
-│   │   │   ├── FinalFooter.tsx
-│   │   │   ├── Footer.tsx
-│   │   │   ├── infinite-slider.tsx
-│   │   │   ├── Logo.tsx
-│   │   │   ├── ParallaxSection.tsx
-│   │   │   ├── ParticleText.tsx
-│   │   │   ├── ProjectSection.tsx
-│   │   │   ├── SmoothScroll.tsx
-│   │   │   ├── TransitionText.tsx
+│   │   ├── AnimatedText.tsx
+│   │   ├── ColorSection.tsx
+│   │   ├── CustomCursor.tsx
+│   │   ├── FinalFooter.tsx
+│   │   ├── Footer.tsx
+│   │   ├── infinite-slider.tsx
+│   │   ├── Logo.tsx
+│   │   ├── ParallaxSection.tsx
+│   │   ├── ParticleText.tsx
+│   │   ├── ProjectSection.tsx
+│   │   ├── SmoothScroll.tsx
+│   │   ├── TransitionText.tsx
 │   ├── hooks/
 │   │   ├── use-mobile.tsx
 │   │   ├── use-mouse-position.tsx
