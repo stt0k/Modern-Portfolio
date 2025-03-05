@@ -10,7 +10,7 @@ const SmoothScroll: React.FC<SmoothScrollProps> = ({ children }) => {
   const requestRef = useRef<number>(0);
   const previousScrollY = useRef<number>(0);
   const currentScrollY = useRef<number>(0);
-  const scrollSpeed = 0.05;
+  const scrollSpeed = 0.07;
 
   const smoothScrolling = () => {
     currentScrollY.current +=

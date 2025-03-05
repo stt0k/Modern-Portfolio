@@ -209,6 +209,167 @@
     color: transparent;
   }
 
+  .ctn {
+    position: relative;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-pop-up-top {
+    color: #fff;
+    font: normal 90pt Arial;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both,
+      tracking-in-expand 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  }
+
+  @keyframes text-pop-up-top {
+    0% {
+      transform: translateX(-50%) translateY(0);
+      transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50px);
+      transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff,
+        0 5px 0 #fff, 0 6px 0 #fff, 0 7px 0 #fff, 0 8px 0 #fff, 0 9px 0 #fff,
+        0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .loading-container {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+    position: relative;
+  }
+
+  .loading-bar {
+    position: relative;
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.4);
+  }
+
+  .loading-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+    animation: loading-shine 1.5s linear infinite;
+  }
+
+  @keyframes loading-shine {
+    0% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(200%);
+    }
+  }
+
+  .loading-text {
+    animation: text-flicker 4s linear infinite;
+  }
+
+  @keyframes text-flicker {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    95% {
+      opacity: 1;
+    }
+    96% {
+      opacity: 0.8;
+    }
+    97% {
+      opacity: 1;
+    }
+    98% {
+      opacity: 0.5;
+    }
+    99% {
+      opacity: 1;
+    }
+  }
+
+  .particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .particle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: rgba(250, 204, 21, 0.6);
+    border-radius: 50%;
+    animation: particleFloat 4s linear infinite;
+  }
+
+  @keyframes particleFloat {
+    0% {
+      transform: translate(random(100) * 1vw, 100vh) scale(0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      transform: translate(random(100) * 1vw, -10vh) scale(1);
+      opacity: 0;
+    }
+  }
+
+  .cyber-grid {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.03) 1px,
+        transparent 1px
+      ),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    transform: translate(-25%, -25%) rotate(45deg);
+    animation: gridMove 30s linear infinite;
+  }
+
+  @keyframes gridMove {
+    0% {
+      transform: translate(-25%, -25%) rotate(45deg);
+    }
+    100% {
+      transform: translate(-75%, -75%) rotate(45deg);
+    }
+  }
+
   @keyframes colorgen {
     0% {
       opacity: 1;
