@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://res.cloudinary.com/dkgt07zcg/image/upload/f_auto,q_auto/mern-crud" alt="Modern Portfolio Banner" />
+<img src="https://res.cloudinary.com/dkgt07zcg/image/upload/f_auto,q_auto/v1/github%20images/jjzp2tpm3chgsvmrd9fa" alt="Modern Portfolio Banner" />
 </div>
 
 <div align="center">
@@ -53,8 +53,8 @@ Este proyecto usa tecnologías modernas y requiere Node.js 18 o superior.
 1. Clona el repositorio:
 
    ```bash
-   git clone git@github.com:stt0k/modern-portfolio.git
-   cd modern-portfolio
+   git clone git@github.com:stt0k/Modern-Portfolio.git
+   cd Modern-Portfolio
    ```
 
 2. Instala las dependencias:
@@ -95,18 +95,18 @@ modern-portfolio/
 ├── src/
 │   ├── components/
 │   │   ├── ui/
-│   │   │   ├── AnimatedText.tsx
-│   │   │   ├── ColorSection.tsx
-│   │   │   ├── CustomCursor.tsx
-│   │   │   ├── FinalFooter.tsx
-│   │   │   ├── Footer.tsx
-│   │   │   ├── infinite-slider.tsx
-│   │   │   ├── Logo.tsx
-│   │   │   ├── ParallaxSection.tsx
-│   │   │   ├── ParticleText.tsx
-│   │   │   ├── ProjectSection.tsx
-│   │   │   ├── SmoothScroll.tsx
-│   │   │   ├── TransitionText.tsx
+│   │   ├── AnimatedText.tsx
+│   │   ├── ColorSection.tsx
+│   │   ├── CustomCursor.tsx
+│   │   ├── FinalFooter.tsx
+│   │   ├── Footer.tsx
+│   │   ├── infinite-slider.tsx
+│   │   ├── Logo.tsx
+│   │   ├── ParallaxSection.tsx
+│   │   ├── ParticleText.tsx
+│   │   ├── ProjectSection.tsx
+│   │   ├── SmoothScroll.tsx
+│   │   ├── TransitionText.tsx
 │   ├── hooks/
 │   │   ├── use-mobile.tsx
 │   │   ├── use-mouse-position.tsx
@@ -142,10 +142,10 @@ Las contribuciones son bienvenidas. Para contribuir:
 
 ## 🔑 Licencia
 
-Este proyecto está bajo la licencia MIT. Puedes ver más detalles en el archivo [LICENSE](LICENSE).
+Este proyecto está bajo la licencia MIT.
 
 ---
 
 <div align="center">
-✨ Desarrollado por [stt0k](https://github.com/stt0k) ✨
+✨ Desarrollado por stt0k (https://github.com/stt0k) ✨
 </div>
