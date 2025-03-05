@@ -44,7 +44,7 @@ function LoadingScreen() {
           <div className="text-pop-up-top">STOK</div>
         </div>
 
-        {/* Professional loading bar */}
+        {/* Loading bar */}
         <div className="relative w-96 h-1 bg-neutral-900 mt-7 overflow-hidden loading-container">
           <div
             className="h-full bg-yellow-400 rounded-none transition-all duration-300 ease-linear loading-bar"
